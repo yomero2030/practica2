@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')#habeer
 #DEBUG = True
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = [ '*']
+ALLOWED_HOSTS = ['171117.ddns.net']
 
 
 # Application definition
